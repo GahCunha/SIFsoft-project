@@ -2,7 +2,7 @@ import { Logo } from "./logo";
 
 export function Navbar() {
   return (
-    <nav className="flex justify-between">
+    <nav className="flex justify-between bg-amber mx-24 py-4">
       <Logo />
       <ul>
         <li>Home</li>

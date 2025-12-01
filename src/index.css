@@ -1,1 +1,32 @@
 @import "tailwindcss";
+
+@theme {
+  --color-amber: #f5980c;
+}
+
+@layer base {
+  html {
+    @apply h-full bg-amber text-white antialiased scroll-smooth;
+  }
+  body {
+    @apply min-h-full font-sans;
+  }
+}
+
+@layer components {
+  .page {
+    @apply min-h-screen;
+  }
+  .container-page {
+    @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
+  }
+}
+
+@layer utilities {
+  .font-lily {
+    font-family: "Lily Script One", cursive;
+  }
+  .font-poppins {
+    font-family: "Poppins", sans-serif;
+  }
+}

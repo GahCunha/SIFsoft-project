@@ -6,7 +6,7 @@ export function Menu() {
     { name: "ALFAHAM", price: "460/-", img: "/src/assets/Ellipse 1.png" },
     { name: "KUZHI MANDHI", price: "800/-", img: "/src/assets/Ellipse 2.png" },
     { name: "CHICKEN BIRIYANI", price: "140/-", img: "/src/assets/Ellipse 3.png" },
-    { name: "SHAWARMA", price: "110/-", img: "/src/assets/Ellipse 1.png" },
+    { name: "SHAWARMA", price: "110/-", img: "/src/assets/Ellipse 4.png" },
     { name: "BEEF POLLICHATHU", price: "180/-", img: "/src/assets/Ellipse 5.png" },
     { name: "FISH POLLICHATHU", price: "Seasonal", img: "/src/assets/Ellipse 6.png" }
   ];

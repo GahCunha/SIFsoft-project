@@ -3,12 +3,12 @@ import { Section } from "../commum/section";
 export function Menu() {
 
    const items = [
-    { name: "ALFAHAM", price: "460/-", img: "/src/assets/Ellipse 1.png" },
-    { name: "KUZHI MANDHI", price: "800/-", img: "/src/assets/Ellipse 2.png" },
-    { name: "CHICKEN BIRIYANI", price: "140/-", img: "/src/assets/Ellipse 3.png" },
-    { name: "SHAWARMA", price: "110/-", img: "/src/assets/Ellipse 4.png" },
-    { name: "BEEF POLLICHATHU", price: "180/-", img: "/src/assets/Ellipse 5.png" },
-    { name: "FISH POLLICHATHU", price: "Seasonal", img: "/src/assets/Ellipse 6.png" }
+    { name: "ALFAHAM", price: "460/-", img: "/Ellipse 1.png" },
+    { name: "KUZHI MANDHI", price: "800/-", img: "/Ellipse 2.png" },
+    { name: "CHICKEN BIRIYANI", price: "140/-", img: "/Ellipse 3.png" },
+    { name: "SHAWARMA", price: "110/-", img: "/Ellipse 4.png" },
+    { name: "BEEF POLLICHATHU", price: "180/-", img: "/Ellipse 5.png" },
+    { name: "FISH POLLICHATHU", price: "Seasonal", img: "/Ellipse 6.png" }
   ];
 
   return (

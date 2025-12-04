@@ -1,6 +1,6 @@
 import { Section } from "../commum/section";
 // Lembre de importar a imagem aqui em cima
-import bgContact from "../../assets/Rectangle 20.png";
+import bgContact from "/Rectangle 20.png";
 
 export function Contact() {
   return (

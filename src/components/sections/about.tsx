@@ -26,12 +26,12 @@ export function About() {
       </div>
       <div className="relative h-full w-1/2">
         <img
-          src="/src/assets/Rectangle 8.png"
+          src="/Rectangle 8.png"
           alt=""
           className="absolute right-0 bottom-1/4"
         />
         <img
-          src="/src/assets/Rectangle 9.png"
+          src="/Rectangle 9.png"
           alt=""
           className="absolute bottom-1/6 left-0"
         />

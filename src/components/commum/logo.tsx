@@ -1,3 +1,3 @@
 export function Logo() {
-  return <img src="/src/assets/Quibeez.svg" alt="Quibeez" className="w-20" />;
+  return <img src="/Quibeez.png" alt="Quibeez" className="w-20" />;
 }

@@ -1,73 +1,75 @@
-# React + TypeScript + Vite
+# 🍔 Quibeez Restaurant - Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)
+![Badge HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![Badge CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-Currently, two official plugins are available:
+> Projeto desenvolvido como parte do Desafio Prático do Processo Trainee.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## 🔗 Link do Projeto (Demo)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Clique abaixo para visualizar o site no ar:
 
-## Expanding the ESLint configuration
+### 🚀 [Acessar Quibeez Restaurant](#)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(["dist"]),
-  {
-    files: ["**/*.{ts,tsx}"],
-    extends: [
-      // Other configs...
+## 📝 Sobre o Projeto
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked
+Este projeto consiste no desenvolvimento de uma **Landing Page** para um restaurante fictício chamado **Quibeez**. O objetivo foi aplicar conhecimentos fundamentais de desenvolvimento web front-end, focando na estruturação semântica e estilização fiel ao design proposto.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-        tsconfigRootDir: import.meta.dirname
-      }
-      // other options...
-    }
-  }
-]);
-```
+O projeto foi criado em dupla, incentivando a colaboração via Git/GitHub e o aprendizado prático de versionamento de código.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 🎯 Requisitos Atendidos
+- [x] Criação de Landing Page completa.
+- [x] Navbar funcional com links de redirecionamento.
+- [x] Seção de Menu e Sobre.
+- [x] Rodapé (Footer) com links.
+- [x] Uso de HTML Semântico e CSS.
+- [x] Hospedagem no GitHub Pages.
 
-```js
-// eslint.config.js
-import reactX from "eslint-plugin-react-x";
-import reactDom from "eslint-plugin-react-dom";
+---
 
-export default defineConfig([
-  globalIgnores(["dist"]),
-  {
-    files: ["**/*.{ts,tsx}"],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs["recommended-typescript"],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-        tsconfigRootDir: import.meta.dirname
-      }
-      // other options...
-    }
-  }
-]);
-```
+## 🛠️ Tecnologias Utilizadas
+
+- **HTML5:** Estruturação semântica do conteúdo.
+- **CSS3:** Estilização, layout (Flexbox/Grid) e responsividade.
+- **Git & GitHub:** Versionamento e trabalho colaborativo.
+
+---
+
+## 🎨 Design Reference
+
+O layout foi baseado em um design da comunidade do Figma. Todos os créditos visuais vão para o criador original.
+
+- **Design Original:** [Figma Community - Restaurant Website](https://www.figma.com/design/HgapnhpjDZEmvmZ76MM0lt/Restaurant-website-Landing-page--Community-?node-id=201-6&t=xjy3NTF9AhUUNGNT-1)
+
+---
+
+## 👥 Autores
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/GahCunha.jpg">
+        <img src="https://avatars.githubusercontent.com/u/75914436?v=4" width="100px;" alt="Foto de Perfil"/><br>
+        <sub>
+          <b>Gabriel Cunha</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/LuizFelipeLP">
+        <img src="https://avatars.githubusercontent.com/u/150875264?v=4" width="100px;" alt="Foto de Perfil"/><br>
+        <sub>
+          <b>Luiz Felipe</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+---
+
+Made with 🧡 by Trainees.
